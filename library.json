@@ -1,22 +1,22 @@
 {
-  "name": "blesdlib",
+  "name": "sd-ducky",
   "keywords": "hid, sdcard, ducky script",
-  "description": "Emulate a keystrok via bluetooth wirelessly",
+  "description": "HID attack with SD card support",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/HackerNowful/BLEHID-SD"
+    "url": "https://github.com/HackerNowful/SD-Ducky"
   },
   "version": "1.0",
-  "frameworks": "arduino",
-  "platforms": ["espressif32"],
+  "frameworks": "arduino:avr",
+  "platforms": ["arduino:avr"],
   "author" :
   [
      {
        "name":"Hacker Nowful",
        "email":"nowful@hypesecinfotech.com",
        "maintainer": true
-     },
+     }
   ],
-  "headers": "blesdlib.h"
+  "headers": "sd_ducky.h"
 }
