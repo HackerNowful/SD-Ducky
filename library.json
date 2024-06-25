@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/HackerNowful/SD-Ducky"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "frameworks": "arduino:avr",
   "platforms": ["arduino:avr"],
   "author": [
